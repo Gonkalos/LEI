@@ -1,0 +1,92 @@
+========================================================================================
+* Deteção de alterações no solo português através de sequências de imagens de satélite *
+========================================================================================
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+1. Descrição:
+
+    Utilizando sequências de imagens da mesma localização, obtidas em instantes temporais distintos, pretende-se identificar alterações não sazonais no solo 
+    Português. Deixa-se à consideração dos alunos optar entre zonas ocupadas por vegetação ou por zonas urbanizadas. As alterações de interesse são aquelas 
+    que se revelem permanentes, como por exemplo uma construção nova ou uma zona desflorestada, e não aquelas que sejam variações sazonais (como por exemplo 
+    uma zona de floresta em que as árvores de folha caduca perderam as folhas ou a mudança de cor duma zona agrícola). Dado que funcionam durante o dia e a 
+    noite, com e sem cobertura de nuvens, os sensores do tipo Synthetic Apperture Radar (SAR) são adequados para aplicações de deteção de alterações no solo. 
+    Deste modo, neste trabalho serão utilizadas imagens obtidas pelo satélite da ESA Sentinel-1.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+2. Passos:
+
+    A. Perceber o que é um sensor Synthetic Apperture Radar (SAR)
+
+    B. Ler a documentação do satélite Sentinel-1 da ESA (modos de captura, polarizações e níveis dos produtos/dados fornecidos)
+
+        REFERÊNCIA [1]:
+            Sentinel-1 SAR GRD dataset stored in Google Earth Engine,
+            interference wide-band (IW) mapping mode, a spatial resolution of 10 m,
+            a width of 250 km and average incidence angle of 30-45º
+
+    C. Descarregar e visualizar produtos do Sentinel-1 em python
+
+        > https://scihub.copernicus.eu
+        > https://sentinel.esa.int/web/sentinel/toolboxes/sentinel-1 
+        > https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S1_GRD
+
+    D. Analizar o tutorial em [10] sobre deteção de alterações com imagens do Sentinel-1
+
+    E. Selecionar e testar um modelo DL para deteção de alterações no solo Português
+
+        > no nordeste de Portugal / no Minho / no concelho Braga / em Braga (A DECIDIR)
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+3. Referências:
+
+    [1]	Using Time Series Sentinel-1 Images for Object-Oriented Crop Classification in Google Earth Engine
+	    https://www.mdpi.com/2072-4292/13/4/561/pdf
+
+    [2]	Change Detection Based on the Coefficient of Variation in SAR Time-Series of Urban Areas
+	    https://www.mdpi.com/2072-4292/12/13/2089/pdf
+
+    [3]	Rapid and Easy Change detection in radar TIme-series by Variation coefficient
+	    https://medium.com/sentinel-hub/reactiv-implementation-for-sentinel-hub-custom-scripts-platform-10aa65fd9c26
+        https://custom-scripts.sentinel-hub.com/custom-scripts/sentinel-1/reactiv/supplementary_material.pdf
+        https://github.com/Terradue/reactiv/blob/develop/examples/reactiv.ipynb
+        https://code.earthengine.google.com/29923deb406fd4803a9b8963cdb50a12
+
+    [4] How to use deep network on sentinel-1 SAR images for change detection?
+        https://medium.com/how-to-use-deep-network-on-sar-images-for-land/how-to-use-deep-network-on-sentinel-1-sar-images-for-change-detection-a178cb2de032
+
+    [5] Deep Learning and SAR Applications (seção "Change Detection")
+        https://towardsdatascience.com/deep-learning-and-sar-applications-81ba1a319def
+
+    [6] https://sentinel.esa.int/web/sentinel/user-guides/sentinel-1-sar
+
+    [7] http://www.esa.int/Applications/Observing_the_Earth/Copernicus/Sentinel-1
+
+    [8] https://developers.google.com/earth-engine/guides/sentinel1 (Sentinel-1 Algorithms)
+
+    [9] https://developers.google.com/earth-engine/tutorials/community/sar-basics (Synthetic Aperture Radar Basics)
+
+    [10] Detecting Changes in Sentinel-1 Imagery (3 parts tutorial)
+        https://developers.google.com/earth-engine/tutorials/community/detecting-changes-in-sentinel-1-imagery-pt-1
+        https://developers.google.com/earth-engine/tutorials/community/detecting-changes-in-sentinel-1-imagery-pt-2
+        https://developers.google.com/earth-engine/tutorials/community/detecting-changes-in-sentinel-1-imagery-pt-3
+
+    [11] Change detection in multitemporal remote sensing images (SLIDES)
+        https://earth.esa.int/documents/973910/2642313/LB1to3.pdf
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+4. Tutoriais:
+
+    [1] Download Sentinel-1 imagery for Free from ESA
+        https://www.youtube.com/watch?v=U-jzO_1p4ew (Dow)
+
+    [2] Postprocessing tools for assessing land cover change
+        https://www.youtube.com/watch?v=0IUosyr4pRw
+
+    [3] EO Colleg: Tutorials
+        https://www.youtube.com/playlist?list=PL_co7pCozSFKK5Wj7HKdWuiPKHTaX_nno
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------
