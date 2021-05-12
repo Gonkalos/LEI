@@ -36,7 +36,7 @@
 
     E. Selecionar e testar um modelo DL para deteção de alterações no solo Português
 
-        > no nordeste de Portugal / no Minho / no concelho Braga / em Braga (A DECIDIR)
+        > no nordeste de Portugal / no Minho / no concelho Braga / em Braga
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------
 
