@@ -1,4 +1,4 @@
-# Detection of Changes in Portuguese Soil Through Satellite Image Sequences
+# Laboratório em Engenharia Informática
 
 ## Description
 
